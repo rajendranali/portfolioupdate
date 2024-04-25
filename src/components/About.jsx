@@ -1,6 +1,7 @@
 import React from "react";
 import ImagesProfile from "./ImagesProfile";
 import Education from "./Education";
+import Experience from "../Experience/Experience";
 
 const About = () => {
   return (
@@ -26,7 +27,8 @@ const About = () => {
           <ImagesProfile />
         </div>
       </div>
-      <Education/>
+    
+      
     </div>
   );
 };

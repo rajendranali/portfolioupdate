@@ -123,7 +123,9 @@ const Projects = () => {
 
   return (
     <div className="max-w-4xl mx-auto px-6 lg:px-0 py-8">
-      <h2 className="text-3xl font-bold text-center mb-8">Projects</h2>
+      <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-br from-purple-400 to-indigo-600 text-transparent bg-clip-text">
+        Projects
+      </h2>
       {projects.map((project, index) => (
         <Project key={index} {...project} />
       ))}

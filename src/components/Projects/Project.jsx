@@ -4,7 +4,9 @@ import { FiExternalLink, FiGithub } from 'react-icons/fi';
 const Project = ({ title, date, description, skills, liveLink, githubLink }) => {
   return (
     <div className="bg-white shadow-md rounded-lg p-6 mb-8">
-      <h2 className="text-xl font-semibold text-gray-800 mb-2">{title}</h2>
+      <h2 className="text-xl font-semibold mb-2">
+        <span className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">{title}</span>
+      </h2>
       <p className="text-gray-600 mb-2">{date}</p>
       <p className="text-gray-600 mb-4">{description}</p>
       <div className="flex flex-wrap mb-4">
@@ -14,13 +16,13 @@ const Project = ({ title, date, description, skills, liveLink, githubLink }) => 
       </div>
       <div className="flex space-x-4">
         {liveLink && (
-          <a href={liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+          <a href={liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
             <FiExternalLink className="mr-2" />
             Live
           </a>
         )}
         {githubLink ? (
-          <a href={githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded">
+          <a href={githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded">
             <FiGithub className="mr-2" />
             GitHub
           </a>

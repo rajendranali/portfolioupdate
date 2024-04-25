@@ -9,10 +9,10 @@ const NavBar = () => {
     <nav className="text-black px-4 md:px-20 ">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center py-4">
         <div className="flex items-center">
-          <h1 className="text-lg font-bold">Rajendra Nali</h1>
+          <h1 className="text-lg font-bold italic tracking-wide">Rajendra Nali</h1>
           <ul className="md:ml-8 flex space-x-4 hidden md:flex">
             <li>
-              <Link to="/about" className="hover:text-gray-400">About</Link>
+              <Link to="/" className="hover:text-gray-400">About</Link>
             </li>
             <li>
               <Link to="/experience" className="hover:text-gray-400">Experience</Link>

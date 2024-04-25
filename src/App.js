@@ -1,11 +1,13 @@
+import NavBar from "./Router/NavBar";
+import AllRouter from "./Router/AllRouter";
 
-import './App.css';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-800">
-    Hello world!
-  </h1>
+    <div className=''>
+      <NavBar />
+      <AllRouter/>
+    </div>
   );
 }
 

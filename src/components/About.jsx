@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import ImagesProfile from "./ImagesProfile";
 import Education from "./Education";
 import Experience from "../Experience/Experience";
@@ -10,7 +11,12 @@ const About = () => {
   const resumeLink = "https://drive.google.com/file/d/1oHVBX5DUg8-qCc_wm955Mq0_V_rOBnTI/view?usp=drive_link";
 
   return (
-    <div className="bg-gray-100 py-12">
+    <motion.div 
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+      className="bg-gray-100 py-12"
+    >
       <div className="max-w-4xl mx-auto px-6 lg:px-0 flex flex-col lg:flex-row items-center justify-center lg:justify-between">
         <div className="lg:w-1/2 lg:mr-12">
           <h1 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-6 text-center lg:text-left">
@@ -54,7 +60,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

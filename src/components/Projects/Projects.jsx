@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project";
-
+import { motion } from "framer-motion";
 const Projects = () => {
   const projects = [
     {
@@ -121,15 +121,33 @@ const Projects = () => {
     // }
   ];
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        delay: 0.5,
+        duration: 0.5,
+        type: "spring",
+        stiffness: 100,
+      },
+    },
+  };
+
   return (
-    <div className="max-w-4xl mx-auto px-6 lg:px-0 py-8">
+    <motion.div
+      className="max-w-4xl mx-auto px-6 lg:px-0 py-8"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+    >
       <h2 className="text-3xl font-bold text-center mb-8 bg-gradient-to-br from-purple-400 to-indigo-600 text-transparent bg-clip-text">
         Projects
       </h2>
       {projects.map((project, index) => (
         <Project key={index} {...project} />
       ))}
-    </div>
+    </motion.div>
   );
 };
 

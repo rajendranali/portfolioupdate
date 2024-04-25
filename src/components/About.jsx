@@ -8,7 +8,7 @@ import Skill from "../Experience/Skill";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 const About = () => {
-  const resumeLink = "https://drive.google.com/file/d/1oHVBX5DUg8-qCc_wm955Mq0_V_rOBnTI/view?usp=drive_link";
+  const resumeLink = "https://drive.google.com/file/d/1PjUCRrgd7jIqtg3vI9t3cNxJ2vkkn5yC/view?usp=sharing";
 
   return (
     <motion.div 

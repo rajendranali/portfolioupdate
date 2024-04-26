@@ -6,6 +6,7 @@ import Experience from "../Experience/Experience";
 import { Link } from "react-router-dom";
 import Skill from "../Experience/Skill";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
+import Projects from "./Projects/Projects";
 
 const About = () => {
   const resumeLink = "https://drive.google.com/file/d/1PjUCRrgd7jIqtg3vI9t3cNxJ2vkkn5yC/view?usp=sharing";
@@ -60,6 +61,9 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Experience/>
+      <Education/>
+      <Projects/>
     </motion.div>
   );
 };

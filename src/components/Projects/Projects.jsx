@@ -6,8 +6,8 @@ const Projects = () => {
     {
       title: "Data Nest",
       date: "Mar 2024 - Present",
-      description:
-        "Associated with Sutradhar Project Consultancy Pvt. Ltd. Generating Basic report, ADF Reports Custom reports for Bank Transaction.",
+      associate:
+        "Associated with Sutradhar Project Consultancy Pvt. Ltd.",
       skills: [
         "React.js",
         "JavaScript",
@@ -18,12 +18,13 @@ const Projects = () => {
       ],
       liveLink: "https://datanest.sutradhar.tech/",
       githubLink: null,
+      description:"Generating Basic report, ADF Reports Custom reports for Bank Transaction."
     },
     {
       title: "Project Managements",
       date: "Mar 2023 - Present",
-      description:
-        "Associated with Sutradhar Project Consultancy Pvt. Ltd. Project Managements tool for managing multitenant parameters.",
+      associate:
+        "Associated with Sutradhar Project Consultancy Pvt. Ltd.",
       skills: [
         "React.js",
         "Routers",
@@ -35,12 +36,13 @@ const Projects = () => {
       ],
       liveLink: "https://admin.sutradhar.tech/",
       githubLink: null,
+      description:" Project Managements tool for managing multitenant parameters."
     },
     {
       title: "Bcore",
       date: "Dec 2022 - Present",
-      description:
-        "Associated with Sutradhar Project Consultancy Pvt. Ltd. Streamlined supply chain operations via a React.js application, enhancing efficiency.",
+      associate:
+        "Associated with Sutradhar Project Consultancy Pvt. Ltd.",
       skills: [
         "JavaScript",
         "Problem Solving",
@@ -50,11 +52,12 @@ const Projects = () => {
       ],
       liveLink: "https://sutrabcore.sutradhar.tech/newdev/",
       githubLink: null,
+      description:"Streamlined supply chain operations via a React.js application, enhancing efficiency."
     },
     // {
     //   title: 'Sutra Bcore',
     //   date: 'Aug 2022 - Present',
-    //   description: 'Streamlined supply chain operations via a React.js application, enhancing efficiency.',
+    //   associate: 'Streamlined supply chain operations via a React.js application, enhancing efficiency.',
     //   skills: ['React.js', 'JavaScript', 'Problem Solving', 'contextApi', 'Debugging Code'],
     //   liveLink: 'https://example.com/live',
     //   githubLink: 'https://github.com/example/project'
@@ -62,7 +65,7 @@ const Projects = () => {
     {
       title: "WMS (Warehouse Management System)",
       date: "Aug 2022 - Present",
-      description: "Associated with Sutradhar Project Consultancy Pvt. Ltd.",
+      associate: "Associated with Sutradhar Project Consultancy Pvt. Ltd.",
       skills: [
         "JavaScript",
         "Problem Solving",
@@ -73,31 +76,35 @@ const Projects = () => {
       ],
       liveLink: "https://sutrabcore.sutradhar.tech/newdev/",
       githubLink: null,
+      description:"Warehouse Management System for store keeping effiently"
     },
     {
       title: "Timecamp.com",
       date: "Aug 2022 - Aug 2022",
-      description:
-        "Associated with Masai School. TimeCamp is a web-based application launched in 2009 by Kamil Rudnicki, a programmer and founder of Time Solutions, to track the activity of computer users and it is dedicated either to freelancers or teams.",
+      associate:
+        "Associated with Masai School.",
       skills: ["Front-End Development", "Redux", "Redux Thunk"],
       liveLink: "https://sensitive-thunder-3176.vercel.app/",
       githubLink:
         "https://github.com/rajendranali/sensitive-thunder-3176/tree/master/sensitive-thunder-3176",
+        description:"TimeCamp is a web-based application launched in 2009 by Kamil Rudnicki, a programmer and founder of Time Solutions, to track the activity of computer users and it is dedicated either to freelancers or teams."
     },
     {
       title: "Freshly.com",
       date: "Jul 2022 - Jul 2022",
-      description:
-        "Associated with Masai School. Freshly is New-York base prepared meals providing company just like Zomato and Swiggy. Customers can order the Food as per their requirements and specify diets plan.",
+      associate:
+        "Associated with Masai School.",
       skills: ["Front-End Development", "Redux", "React.js"],
+      description:"",
       liveLink: "https://freshly-dusky.vercel.app/",
       githubLink:
         "https://github.com/rajendranali/fleet-cap-5913/tree/main/freshly",
+        description:" Freshly is New-York base prepared meals providing company just like Zomato and Swiggy. Customers can order the Food as per their requirements and specify diets plan."
     },
     // {
     //   title: 'UBORIC',
     //   date: 'Apr 2022 - May 2022',
-    //   description: 'Associated with Masai School. UBORIC CLONE An E-Commerce website where users can purchase all varieties of products and users can become a seller.',
+    //   associate: 'Associated with Masai School. UBORIC CLONE An E-Commerce website where users can purchase all varieties of products and users can become a seller.',
     //   skills: ['React.js', 'CSS',"Redux","React.js"],
     //   liveLink: 'https://example.com/live',
     //   githubLink: 'https://github.com/example/project'
@@ -105,11 +112,12 @@ const Projects = () => {
     {
       title: "NYKAA CLONE",
       date: "Apr 2022 - Apr 2022",
-      description:
-        "Associated with Masai School. Nykaa is an E-commerce website about Women's Fashion and Style.",
+      associate:
+        "Associated with Masai School.",
       skills: ["HTML", "CSS", "Javascript"],
       liveLink: "https://super-pudding-5e48ab.netlify.app/index.html",
       githubLink: "https://github.com/rajendranali/Nykaa-clone",
+      description:" Nykaa is an E-commerce website about Women's Fashion and Style."
     },
     // {
     //   title: 'STYLECRAZE CLONE',

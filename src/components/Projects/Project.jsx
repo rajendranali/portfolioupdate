@@ -1,13 +1,14 @@
 import React from 'react';
 import { FiExternalLink, FiGithub } from 'react-icons/fi';
 
-const Project = ({ title, date, description, skills, liveLink, githubLink }) => {
+const Project = ({ title, date, description,associate, skills, liveLink, githubLink }) => {
   return (
     <div className="bg-white shadow-md rounded-lg p-6 mb-8">
       <h2 className="text-xl font-semibold mb-2">
         <span className="bg-gradient-to-r from-purple-500 to-blue-500 text-transparent bg-clip-text">{title}</span>
       </h2>
       <p className="text-gray-600 mb-2">{date}</p>
+      <p className="text-gray-600 mb-4">{associate}</p>
       <p className="text-gray-600 mb-4">{description}</p>
       <div className="flex flex-wrap mb-4">
         {skills.map((skill, index) => (

@@ -6,6 +6,7 @@ import masai from './masai.jpg';
 const Experience = () => {
   return (
     <div className="max-w-4xl mx-auto py-8">
+      <h1 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">Experience</h1>
       <div className="space-y-12">
         {/* Experience 1 */}
         <motion.div 

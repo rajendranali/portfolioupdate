@@ -9,7 +9,8 @@ const Project = ({ title, date, description,associate, skills, liveLink, githubL
       </h2>
       <p className="text-gray-600 mb-2">{date}</p>
       <p className="text-gray-600 mb-4">{associate}</p>
-      <p className="text-gray-600 mb-4">{description}</p>
+      <p className="text-gray-600 mb-4 italic">{description}</p>
+
       <div className="flex flex-wrap mb-4">
         {skills.map((skill, index) => (
           <div key={index} className="bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2 mb-2">{skill}</div>

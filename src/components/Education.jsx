@@ -8,7 +8,9 @@ import jnv from "./jnv.jpg";
 const Education = () => {
   return (
     <div className="max-w-4xl mx-auto py-8">
+      <h1 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-purple-500 text-transparent bg-clip-text">Education</h1>
       <div className="space-y-8">
+        {/* Education 1 */}
         <motion.div 
           className="flex items-center border border-gray-200 rounded-md p-4 hover:shadow-md transition duration-300 ease-in-out"
           whileHover={{ scale: 1.05 }}
@@ -24,6 +26,7 @@ const Education = () => {
           </div>
         </motion.div>
 
+        {/* Education 2 */}
         <motion.div 
           className="flex items-center border border-gray-200 rounded-md p-4 hover:shadow-md transition duration-300 ease-in-out"
           whileHover={{ scale: 1.05 }}
@@ -38,6 +41,7 @@ const Education = () => {
           </div>
         </motion.div>
 
+        {/* Education 3 */}
         <motion.div 
           className="flex items-center border border-gray-200 rounded-md p-4 hover:shadow-md transition duration-300 ease-in-out"
           whileHover={{ scale: 1.05 }}
@@ -53,6 +57,7 @@ const Education = () => {
           </div>
         </motion.div>
 
+        {/* Education 4 */}
         <motion.div 
           className="flex items-center border border-gray-200 rounded-md p-4 hover:shadow-md transition duration-300 ease-in-out"
           whileHover={{ scale: 1.05 }}

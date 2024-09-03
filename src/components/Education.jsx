@@ -27,7 +27,7 @@ const Education = () => {
         </motion.div>
 
         {/* Education 2 */}
-        <motion.div 
+{/*         <motion.div 
           className="flex items-center border border-gray-200 rounded-md p-4 hover:shadow-md transition duration-300 ease-in-out"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -39,7 +39,7 @@ const Education = () => {
             <p className="text-xs text-gray-600">Feb 2022 - Jul 2022</p>
             <p className="text-xs italic text-gray-600">Skills: Algorithms · Babel.js · Redux · MongoDB · Cascading Style Sheets (CSS) · Routers · Chakra ui · Express.js · ECMAScript · React.js · Responsive Web Design · JavaScript eXtension (JSX) · Front-End Development · Material-UI · HTML5 · <span className="italic">Redux Thunk</span></p>
           </div>
-        </motion.div>
+        </motion.div> */}
 
         {/* Education 3 */}
         <motion.div 

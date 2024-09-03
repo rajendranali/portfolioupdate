@@ -18,16 +18,16 @@ const Experience = () => {
             <img src={sutradhar} alt="Sutradhar Logo" className="w-20 h-20 mr-4" />
             <div>
               <h2 className="text-xl font-bold">Sutradhar Project Consultancy Pvt. Ltd.</h2>
-              <p className="text-gray-600">Full-time · 1 yr 5 mos</p>
+{/*               <p className="text-gray-600">Full-time · 1 yr 5 mos</p> */}
               <p className="text-gray-600">Pune, Maharashtra, India · On-site</p>
               <p className="text-gray-600">React.js Developer (Team Lead)</p>
-              <p className="text-gray-600">Aug 2023 - Present · 9 mos</p>
+{/*               <p className="text-gray-600">Aug 2023 - Present · 9 mos</p> */}
               <p className="text-gray-600 italic">React.js, Data Structures, and +5 skills</p>
             </div>
           </div>
         </motion.div>
         {/* Experience 2 */}
-        <motion.div 
+{/*         <motion.div 
           className="bg-white rounded-lg shadow-md p-6"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -43,7 +43,7 @@ const Experience = () => {
               <p className="text-gray-600 italic">Proficient MERN stack developer specializing in MongoDB, Express.js, React.js, and Node.js.</p>
             </div>
           </div>
-        </motion.div>
+        </motion.div> */}
         {/* Experience 3 */}
         {/* Add more experiences in a similar format */}
       </div>

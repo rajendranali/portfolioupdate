@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Data Nest",
-      date: "Mar 2024 - Present",
+      date: "",
       associate:
         "Associated with Sutradhar Project Consultancy Pvt. Ltd.",
       skills: [
@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       title: "Project Managements",
-      date: "Mar 2023 - Present",
+      date: "",
       associate:
         "Associated with Sutradhar Project Consultancy Pvt. Ltd.",
       skills: [
@@ -40,7 +40,7 @@ const Projects = () => {
     },
     {
       title: "Bcore",
-      date: "Dec 2022 - Present",
+      date: "",
       associate:
         "Associated with Sutradhar Project Consultancy Pvt. Ltd.",
       skills: [
@@ -80,7 +80,7 @@ const Projects = () => {
     },
     {
       title: "Timecamp.com",
-      date: "Aug 2022 - Aug 2022",
+      date: "",
       associate:
         "Associated with Masai School.",
       skills: ["Front-End Development", "Redux", "Redux Thunk"],
@@ -91,7 +91,7 @@ const Projects = () => {
     },
     {
       title: "Freshly.com",
-      date: "Jul 2022 - Jul 2022",
+      date: "",
       associate:
         "Associated with Masai School.",
       skills: ["Front-End Development", "Redux", "React.js"],
@@ -111,7 +111,7 @@ const Projects = () => {
     // },
     {
       title: "NYKAA CLONE",
-      date: "Apr 2022 - Apr 2022",
+      date: "",
       associate:
         "Associated with Masai School.",
       skills: ["HTML", "CSS", "Javascript"],

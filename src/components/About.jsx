@@ -9,7 +9,7 @@ import { FaPhone, FaEnvelope } from "react-icons/fa";
 import Projects from "./Projects/Projects";
 
 const About = () => {
-  const resumeLink = "https://drive.google.com/file/d/1PjUCRrgd7jIqtg3vI9t3cNxJ2vkkn5yC/view?usp=sharing";
+  const resumeLink = "https://drive.google.com/file/d/1q3bShWW2s8ox68bSZ9zckK6fiV-Dmuh2/view?usp=sharing";
 
   return (
     <motion.div 

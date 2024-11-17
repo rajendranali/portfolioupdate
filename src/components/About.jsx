@@ -51,8 +51,8 @@ const About = () => {
       <div className="max-w-4xl mx-auto px-6 lg:px-0 flex flex-col lg:flex-row items-center justify-center lg:justify-between mt-8">
         <div className="lg:w-1/2 lg:mr-12">
           <div className="flex items-center space-x-4">
-            <FaPhone className="text-gray-600 text-lg" />
-            <p className="text-gray-600">Mobile: <span className="font-semibold">9074448165</span></p>
+{/*             <FaPhone className="text-gray-600 text-lg" />
+            <p className="text-gray-600">Mobile: <span className="font-semibold">9074448165</span></p> */}
           </div>
 
           <div className="flex items-center space-x-4 mt-2">
